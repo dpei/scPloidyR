@@ -1,0 +1,16 @@
+Package: scPloidyR
+Title: Single-Cell Copy Number Calling via Hidden Markov Models
+Version: 0.1.0
+Authors@R: person("scPloidyR Authors", role = c("aut", "cre"),
+                  email = "noreply@example.com")
+Description: Implements a Hidden Markov Model (HMM) for detecting copy number
+    states from single-cell sequencing data using depth and B-allele frequency
+    (BAF) observations. Supports per-chromosome fitting, reference-aware
+    parameter learning, and parallel multi-cell processing.
+Depends: R (>= 4.0.0)
+Imports: parallel, stats, utils
+Suggests: testthat (>= 3.0.0)
+License: MIT + file LICENSE
+Encoding: UTF-8
+RoxygenNote: 7.3.3
+Config/testthat/edition: 3
